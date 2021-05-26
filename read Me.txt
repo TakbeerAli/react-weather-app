@@ -1,0 +1,4 @@
+url : https://techbeer-weather.netlify.app/
+hosted at netlify
+email: cntfrm6@gmail.com
+pass: asdf123@@

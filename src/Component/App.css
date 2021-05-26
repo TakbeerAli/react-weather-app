@@ -1,0 +1,20 @@
+
+body
+{
+    background:  linear-gradient(-30deg, #33ccff,#81d5ff ,#ffccff,#81d5ff);  
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.app-bg {
+    background: linear-gradient(0deg, rgba(0,0,0, 0.2),rgba(0,0,0, 0.3)), url(../bg.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .side-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+  }

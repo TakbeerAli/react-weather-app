@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+// import React, { Component } from 'react'
 
-function App() {
+// export class App extends Component {
+
+//   state = {
+//     latitude : null
+
+//   }
+
+//   componentDidMount(){
+//     navigator.geolocation.getCurrentPosition(function(position) {
+//      console.log(position.coords.latitude);
+//       // this.setState({latitude:position.coords.latitude})
+
+//     })
+//   }
+
+  
+//   render() {
+//     return (
+//       <div>
+
+//       return 1;
+        
+//       </div>
+//     )
+//   }
+// }
+
+// export default App
+
+
+import React from 'react'
+
+import UserLocation from "./Component/getUserLocation"
+
+const  App = () => {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+    <div>
+     <UserLocation/>
     </div>
-  );
+  )
 }
 
+
 export default App;
+
